@@ -10,19 +10,19 @@
     <!-- 底部导航栏-->
     <mt-tabbar v-model="selected">
       <mt-tab-item id="home">
-        <img slot="icon" >
+        <img src="./assets/31shouye.svg" slot="icon" >
         首页
       </mt-tab-item>
       <mt-tab-item id="cart">
-        <img slot="icon" >
+        <img src="./assets/31gouwuche.svg" slot="icon" >
         购物车
       </mt-tab-item>
       <mt-tab-item id="find">
-        <img slot="icon" >
+        <img src="./assets/shangyehuaquanqiu.svg" slot="icon" >
         发现
       </mt-tab-item>
       <mt-tab-item id="my">
-        <img slot="icon" >
+        <img src="./assets/31wode.svg" slot="icon" >
         我的
       </mt-tab-item>
     </mt-tabbar>
