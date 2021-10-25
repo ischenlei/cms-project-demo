@@ -1,14 +1,14 @@
 <template>
   <div id="app">
-    <mt-header title="首页">
-      <mt-button link="'/'" icon="back" slot="left">返回</mt-button>
+    <mt-header title="首页" fixed>
+      <mt-button link="/" icon="back" slot="left">返回</mt-button>
       <mt-button icon="more" slot="right"></mt-button>
     </mt-header>
 
     <router-view/>
 
     <!-- 底部导航栏-->
-    <mt-tabbar v-model="selected">
+    <mt-tabbar v-model="selected" fixed>
       <mt-tab-item id="home">
         <img src="./assets/31shouye.svg" slot="icon" >
         首页
@@ -45,9 +45,6 @@ export default {
 }
 </script>
 
-<style>
-* {
-  padding: 0;
-  margin: 0;
-}
+<style scoped>
+
 </style>
